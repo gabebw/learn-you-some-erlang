@@ -37,3 +37,6 @@
 
 - all functions (except builtin ones in the `erlang` module) need to be called as `Module:Function(Arguments)
 - e.g. `lists:seq(1,4).`
+- import with: `-import(Module, [Function1/Arity, ..., FunctionN/Arity])`
+- from `erl`, run `c(modulename)` to compile the module
+- then can do `useless:add(1, 3).`
