@@ -31,4 +31,9 @@
 - pattern matching: `[Head|Rest] = [1,2,3,4].`
 - concatenation with `|`: `[1| [2,3,4] ] == [1,2,3,4]`
 - `|` is the cons operator
-- list comprehensions: `[2*N || N <- [1,2,3,4]].`
+- list comprehensions: `[N-2 || N <- [1,2,3,4]].`
+
+## Modules
+
+- all functions (except builtin ones in the `erlang` module) need to be called as `Module:Function(Arguments)
+- e.g. `lists:seq(1,4).`
