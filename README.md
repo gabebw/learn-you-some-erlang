@@ -30,4 +30,5 @@
 - length: `length([1, 2])`
 - pattern matching: `[Head|Rest] = [1,2,3,4].`
 - concatenation with `|`: `[1| [2,3,4] ] == [1,2,3,4]`
-
+- `|` is the cons operator
+- list comprehensions: `[2*N || N <- [1,2,3,4]].`
