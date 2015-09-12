@@ -7,7 +7,7 @@ help_me(Animal) ->
           Animal == beef -> "mooo";
           Animal == dog  -> "bark";
           Animal == tree -> "bark"; % sigh.
-          true -> "fgdadfgna"
+          true -> "I am an unknown animal"
         end,
   {Animal, "says " ++ Talk ++ "!"}.
 
