@@ -46,3 +46,7 @@
 
 - pattern matching: just define multiple versions of the same function, like
   Haskell. But functions end with semicolon, not a period.
+
+## Types
+
+- Erlang is dynamically typed (no compile time type checking) and strongly typed (`6 + "1"` crashes) and
