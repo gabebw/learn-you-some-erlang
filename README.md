@@ -40,3 +40,9 @@
 - import with: `-import(Module, [Function1/Arity, ..., FunctionN/Arity])`
 - from `erl`, run `c(modulename)` to compile the module
 - then can do `useless:add(1, 3).`
+- info: `useless:module_info()`
+
+## Functions
+
+- pattern matching: just define multiple versions of the same function, like
+  Haskell. But functions end with semicolon, not a period.
