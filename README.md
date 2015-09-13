@@ -10,7 +10,7 @@
 - `not false.`
 - `true or false.`
 - `5 =:= 5.`
-- strict: `=:=``, `=/=`, non-strict: `==` and `/=`
+- strict: `=:=`, `=/=`, non-strict: `==` and `/=`
   - strict cares about floats vs ints, for example
 
 ## Tuples
