@@ -16,7 +16,7 @@
 ## Tuples
 
 - `Point = {10, 4}.`
-- can destructure: `{X, Y} = Point.` or `{X, \_} = Point.`
+- can destructure: `{X, Y} = Point.` or `{X, _} = Point.`
 
 ## Lists
 
